@@ -84,5 +84,5 @@ client.connect("localhost")
 client.loop_start()
 
 
-while True:
+while True: ## sleep forever
     time.sleep(999999)
