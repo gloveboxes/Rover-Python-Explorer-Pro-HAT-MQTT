@@ -4,6 +4,7 @@ import time
 
 leftMotor = explorerhat.motor.one
 rightMotor = explorerhat.motor.two
+
 roverMotorMqttTopic = "/rover/motor"
 
 
@@ -84,5 +85,5 @@ client.connect("localhost")
 client.loop_start()
 
 
-while True: ## sleep forever
+while True:  # sleep forever
     time.sleep(999999)
